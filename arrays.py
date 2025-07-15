@@ -1,3 +1,4 @@
+#ATTENTION, classification is faulty and biased but as complete as I could do <3
 def categorize_aircraft(muster):
     muster_upper = str(muster).upper()
     if any(keyword in muster_upper for keyword in [
